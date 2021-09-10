@@ -30,4 +30,15 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+	'paypal' => [
+		'link' => env('PAYPAL_LINK'),
+		'alias' => env('PAYPAL_LOGIN'),
+		'key' => env('PAYPAL_KEY'),
+	],
+
+	'apple_pay' => [
+		'link' => env('APPLE_PAY_LINK'),
+		'alias' => env('APPLE_PAY_LOGIN'),
+		'key' => env('APPLE_PAY_KEY'),
+	],
 ];

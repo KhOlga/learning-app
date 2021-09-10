@@ -174,6 +174,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+		App\Services\PaymentServices\PayPal\PaypalServiceProvider::class,
+		App\Services\PaymentServices\ApplePay\ApplePayServiceProvider::class,
 
     ],
 
